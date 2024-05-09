@@ -17,3 +17,7 @@ In the `.env.local` file you can comment/uncomment the `NEXT_PUBLIC_UPLOAD_URL` 
 Files are uploaded in the `files` directory.
 
 ⚠️ Since this project is using TUS, empty your localstorage if you want to upload the same file twice.
+
+## Resources
+
+TUS: resumable upload: https://tus.io/
