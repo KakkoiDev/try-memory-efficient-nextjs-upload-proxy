@@ -1,5 +1,7 @@
 # Try Memory Efficient NextJS Upload Proxy
 
+NextJS Issue: https://github.com/vercel/next.js/issues/65563
+
 Their is a memory leak when trying to upload a file through the proxy, the file is loaded in memory and released only when the server is shutdown.
 
 ![demo](demo.gif)
@@ -20,4 +22,4 @@ Files are uploaded in the `files` directory.
 
 ## Resources
 
-TUS: resumable upload: https://tus.io/
+TUS - resumable upload: https://tus.io/
